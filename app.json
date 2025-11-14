@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Hair Clinic Self-Capture",
+    "slug": "hair-clinic-self-capture",
+    "scheme": "hairclinic",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.smilehairclinic.selfcapture",
+      "infoPlist": {
+        "NSCameraUsageDescription": "We need camera access to capture your hair assessment photos.",
+        "NSMotionUsageDescription": "We use motion sensors to guide you to the correct phone angle."
+      }
+    },
+    "android": {
+      "package": "com.smilehairclinic.selfcapture",
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      }
+    }
+  }
+}
